@@ -85,12 +85,15 @@ class _LoginPageState extends State<LoginPage> {
                       keyboardType: TextInputType.emailAddress,
                       decoration: const InputDecoration(
                         labelText: 'Correo electrónico',
-                        labelStyle: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
+                        labelStyle: TextStyle(
+                            color: Color.fromARGB(255, 0, 0, 0)),
                         focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.black, width: 1.0),
+                          borderSide:
+                              BorderSide(color: Colors.black, width: 1.0),
                         ),
                         enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.black, width: 1.0),
+                          borderSide:
+                              BorderSide(color: Colors.black, width: 1.0),
                         ),
                       ),
                       validator: (value) {
@@ -107,7 +110,8 @@ class _LoginPageState extends State<LoginPage> {
                     obscureText: true,
                     decoration: const InputDecoration(
                       labelText: 'Contraseña',
-                      labelStyle: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
+                      labelStyle:
+                          TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
                       focusedBorder: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.black, width: 1.0),
                       ),
@@ -131,7 +135,9 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     child: const Text('Ingresar'),
                   ),
-                  const SizedBox(height: 10.0), // Agrega un espacio entre el botón de inicio de sesión y "¿Olvidaste tu contraseña?"
+                  const SizedBox(
+                      height:
+                          10.0), // Agrega un espacio entre el botón de inicio de sesión y "¿Olvidaste tu contraseña?"
                   TextButton(
                     onPressed: _forgotPassword,
                     child: const Text(

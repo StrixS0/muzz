@@ -62,7 +62,7 @@ flutter:
     - assets/fondo1.png
     - assets/mosslogo.png
     - assets/fondo12.png # Ruta
-    - assets/fondo_crear_cuenta.png
+    - assets/fondo_ crear_cuenta.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

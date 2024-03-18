@@ -39,7 +39,7 @@ class Bienvenida extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => (LoginPage())));
+                      MaterialPageRoute(builder: (context) => (const LoginPage())));
 
                   // Acción para iniciar sesión con correo o algo similar
                 },
